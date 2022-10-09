@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: #111827;
+  color: white;
+}
+.container {
+  max-width: 600px;
+  background-color: #1f2937;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background-color: #6943ff;
+}
+header div {
+  padding: 35px 40px;
+}
+header div h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+header div #inp {
+  max-width: 110px;
+  margin-bottom: 25px;
+  font-size: 55px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  outline: none;
+  border: 2px solid #b295ff;
+  background-color: transparent;
+  border-radius: 5px;
+}
+header div button {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  padding: 9px 25px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header div button:hover {
+  background-color: #273549;
+  color: white;
+}
+section {
+  padding: 35px 25px;
+}
+section div {
+  background-color: #273549;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+}
+section div:last-child {
+  margin-bottom: 0;
+}
+section div h3 {
+  color: #ccc1ff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 9px;
+  margin-top: 0;
+}
+section div p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+}
