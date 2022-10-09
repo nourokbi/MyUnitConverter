@@ -12,7 +12,7 @@ body {
 .container {
   max-width: 600px;
   background-color: #1f2937;
-  margin: 0 auto;
+  margin: 50px auto 20px;
   text-align: center;
 }
 
@@ -76,4 +76,17 @@ section div p {
   color: white;
   font-size: 14px;
   margin: 0;
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: #1f2937;
+    }
+    .container {
+        margin: 0 auto;
+    }
+    section {
+        padding: 25px 10px 0;
+    }
+    
 }
